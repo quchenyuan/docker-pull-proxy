@@ -28,12 +28,9 @@ jobs:
       run: |
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $REGISTRY
         sh pull.sh
-        data=`cat trigger.txt`
 
         if [ $MM_NOTIFY_URL ];then
-          curl  -H 'Content-Type: application/json' \
-            -d "{\"msgtype\": \"text\",\"text\": {\"content\":\"同步成功 $data \"}}" \
-            $MM_NOTIFY_URL
+            sh notify.sh $MM_NOTIFY_URL
         else
           echo 'MM_NOTIFY_URL not set'
         fi
