@@ -1,1 +1,1 @@
-alpine:20240606 registry.cn-hangzhou.aliyuncs.com/yaming116/alpine:20240606
+lmsysorg/sglang:latest  crpi-vxzvpjcy91o8p3fj.cn-hangzhou.personal.cr.aliyuncs.com/aipro/sglang:latest
