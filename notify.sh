@@ -9,7 +9,7 @@ json_data=$(cat <<EOF
 {
     "at": {
         "atUserIds":[
-            "014728255240768602"
+            "382113"
         ],
         "isAtAll": false
     },
@@ -21,8 +21,10 @@ json_data=$(cat <<EOF
 EOF
 )
 
+url="https://oapi.dingtalk.com/robot/send?access_token=c232dc00b74a3a0ddc09c77e688eca4c595032cc433450cc2e516cfa9f6313f5"
+
 # 定义 URL
-MM_NOTIFY_URL=$1
+MM_NOTIFY_URL=${url}
 
 # 创建一个临时文件来存储 JSON 数据
 tmpfile=$(mktemp /tmp/json.XXXXXX)
