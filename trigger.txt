@@ -1,1 +1,1 @@
-swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/pytorch/pytorch:2.5.1-cuda12.4-cudnn9-devel  crpi-vxzvpjcy91o8p3fj.cn-hangzhou.personal.cr.aliyuncs.com/aipro/pytorch/pytorch:2.5.1-cuda12.4-cudnn9-devel
+pytorch/pytorch:2.5.1-cuda12.4-cudnn9-devel  crpi-vxzvpjcy91o8p3fj.cn-hangzhou.personal.cr.aliyuncs.com/aipro/pytorch/pytorch:2.5.1-cuda12.4-cudnn9-devel
